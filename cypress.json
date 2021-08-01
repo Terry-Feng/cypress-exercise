@@ -1,0 +1,8 @@
+{
+  "testFiles": "**/*.feature",
+  "integrationFolder": "cypress/features",
+  "chromeWebSecurity": false,
+  "video": false,
+  "baseUrl": "https://www.xero.com/nz"
+}
+

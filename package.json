@@ -1,0 +1,26 @@
+{
+  "name": "exercise",
+  "version": "1.0.0",
+  "description": "Technical Exercise",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber"
+  ],
+  "author": "Terry Feng",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/step_definitions"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.5",
+    "cypress": "^8.0.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "faker": "^5.5.3"
+  }
+}

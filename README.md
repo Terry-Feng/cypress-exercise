@@ -1,11 +1,22 @@
 # cypress-exercise
-Make sure you have node js and npm installed on your local
 
-To prepare test project
+### Getting started
+- Install the latest version of Node — https://nodejs.org/en/download/
+- Setting up the project
+```
+git clone https://github.com/Terry-Feng/cypress-exercise.git
+```
+```
+cd e2e-auto.qa
+```
+```
 npm install
+```
 
-To run headless 
+### Running Commands
+
+-To run headless mode
 npm run cy:run
 
-To open cypress and run test
+-To run in GUI mode
 npm run cy:open
