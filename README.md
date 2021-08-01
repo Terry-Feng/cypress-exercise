@@ -7,7 +7,7 @@
 git clone https://github.com/Terry-Feng/cypress-exercise.git
 ```
 ```
-cd e2e-auto.qa
+cd cypress-exercise
 ```
 ```
 npm install
