@@ -16,7 +16,11 @@ npm install
 ### Running Commands
 
 -To run headless mode 
+```
 npm run cy:run
+```
 
 -To run in GUI mode 
+```
 npm run cy:open
+```
